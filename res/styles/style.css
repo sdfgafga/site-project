@@ -81,6 +81,57 @@ h2 {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+/*оформление формы для заполнения*/
+form {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+
+}
+
+form h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+
+form p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #444444;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a148c;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/*оформление формы для заполнения*/
 
 
 .about-section h2 {
