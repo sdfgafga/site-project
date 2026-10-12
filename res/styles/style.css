@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4a4a4a;
+    background-color: #f7f9f6;
+    line-height: 1.6;
+}
+
+header, section, footer {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #e8f5e9, #f3e5f5);
+    border-radius: 0 0 24px 24px;
+    padding: 80px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6a1b9a;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+h1 {
+    color: #4a148c;
+    font-size: 2.5rem;
+    margin: 20px 0 10px;
+}
+
+h2 {
+    color: #2e7d32;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    border: 1px solid #e8f5e9;
+}
+
+.card h3 {
+    color: #4a148c;
+    margin: 15px 0 10px;
+}
+
+.flag-img {
+    width: 64px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.avatar-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f3e5f5;
+}
+
+.about-section {
+    background-color: #f3e5f5;
+    border-radius: 24px;
+    padding: 50px 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.about-section h2 {
+    color: #4a148c;
+}
+
+footer {
+    border-top: 1px solid #e1e8e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+
+.logo-img {
+    height: 35px;
+}
+
+.social-icon {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
